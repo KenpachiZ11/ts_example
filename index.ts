@@ -25,3 +25,9 @@ function getLogTodo(id: number, title: string, completed: boolean) {
     complited: ${completed}
 `)
 }
+
+let x: number = 11;
+let isOdd: boolean;
+
+// if(x % 2 === 0) return 
+console.log(x % 2 === 0 ? isOdd = true : isOdd = false)
