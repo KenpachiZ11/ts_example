@@ -41,9 +41,6 @@ const compact = (array: ValueCompact[]): Array<number> => {
 
 }
 
-<<<<<<< HEAD
-console.log(compact(compactArray), '- Задача 3');
-=======
 console.log(compact(compactArray), '- Задача 3');
 
 
@@ -78,4 +75,3 @@ console.log(isEqual(array1, array2), '- Задача 5');
 console.log(isEqual(array2, array3), '- Задача 5');
 console.log(isEqual(array3, array4), '- Задача 5');
 console.log(isEqual(array4, array1), '- Задача 5');
->>>>>>> test
