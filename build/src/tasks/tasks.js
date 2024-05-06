@@ -23,3 +23,31 @@ const compact = (array) => {
     return compactNewArray;
 };
 console.log(compact(compactArray), '- Задача 3');
+<<<<<<< HEAD
+=======
+// * Описание задачи: Напишите функцию, которая убирает повторяющиеся значения.
+// * Ожидаемый результат: [1, 2, 3, 1, 2] => [1, 2, 3]
+const uniqueArray = [1, 2, 3, 1, 2];
+const unique = (array) => {
+    return Array.from(new Set(array));
+};
+console.log(unique(uniqueArray), '- Задача 4');
+// * Описание задачи: Напишите функцию, которая сравнивает два массива и возвращает true, если они идентичны.
+// * Ожидаемый результат: ([1, 2, 3], [1, 2, 3]) => true
+const array1 = [1, 2, 3];
+const array2 = [1, 2, 3];
+const array3 = [1, 2, 3, 4];
+const array4 = [1, 2, 3, 5, 10];
+const isEqual = (firstArray, secondArray) => {
+    if (firstArray.length !== secondArray.length)
+        return false;
+    if (firstArray.length === secondArray.length) {
+        const check = firstArray.map((el, id) => secondArray[id] === el);
+        return !check.includes(false);
+    }
+};
+console.log(isEqual(array1, array2), '- Задача 5');
+console.log(isEqual(array2, array3), '- Задача 5');
+console.log(isEqual(array3, array4), '- Задача 5');
+console.log(isEqual(array4, array1), '- Задача 5');
+>>>>>>> test
