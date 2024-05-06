@@ -23,8 +23,6 @@ const compact = (array) => {
     return compactNewArray;
 };
 console.log(compact(compactArray), '- Задача 3');
-<<<<<<< HEAD
-=======
 // * Описание задачи: Напишите функцию, которая убирает повторяющиеся значения.
 // * Ожидаемый результат: [1, 2, 3, 1, 2] => [1, 2, 3]
 const uniqueArray = [1, 2, 3, 1, 2];
@@ -50,4 +48,3 @@ console.log(isEqual(array1, array2), '- Задача 5');
 console.log(isEqual(array2, array3), '- Задача 5');
 console.log(isEqual(array3, array4), '- Задача 5');
 console.log(isEqual(array4, array1), '- Задача 5');
->>>>>>> test
